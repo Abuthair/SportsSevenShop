@@ -14,6 +14,7 @@ import lombok.Setter;
 @Getter
 @Setter
 public class Product {
+    //sdada
     @Id
     @GeneratedValue(generator = "product_gen",strategy = GenerationType.AUTO)
     @SequenceGenerator(name = "product_gen",sequenceName = "product_seq",allocationSize = 1,initialValue = 1000)
